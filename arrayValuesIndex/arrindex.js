@@ -8,7 +8,7 @@ while (array2 < array3){
   if(array[i] != ++array2){
     array.splice(i, 0, array2);
     i++;
-    console.log(`Number ${array2} index is ${i-1}`);
+    console.log(`Number ${array2} index is ${i -1}`);
   }else{
     i++;
   }
